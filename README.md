@@ -31,3 +31,15 @@ The dataset uses a synthetic noise pipeline to simulate real-world document degr
 - Contrast Adjustment  
 - Vignette Effect  
 
+---
+
+## 🧠 OCR Model Training
+
+This repository contains the training and evaluation code for the Kashmiri OCR models used in this work.
+
+The repository shares the code for:
+
+- **Proposed Unified STN–ResCNN–Transformer model**
+- **CRNN-BiLSTM-Attention baseline model**
+
+The proposed model uses a unified **STN → ResCNN → Transformer → CTC + Attention** architecture, while the CRNN-BiLSTM-Attention model is provided as a baseline for comparison.
